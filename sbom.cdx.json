@@ -1,0 +1,38 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:45aa0345-04a2-5ec1-8f9c-794d0a1b6bd0",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-12T06:33:03Z",
+    "component": {
+      "type": "application",
+      "name": "OPENBEHAVIOR",
+      "version": "ba3abbcb07d7",
+      "bom-ref": "pkg:generic/anticloud/OPENBEHAVIOR@ba3abbcb07d7",
+      "purl": "pkg:generic/anticloud/OPENBEHAVIOR@ba3abbcb07d7",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "ba3abbcb07d7f64aff63aca613587a71858bd806"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": ""
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": []
+}
