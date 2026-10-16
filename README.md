@@ -1,21 +1,20 @@
 # OPENBEHAVIOR
 
-> This is the main repository for the [Bonsai](https://bonsai-rx.org/) visual programming language. It contains source code for the compiler, IDE, and standard library.
+> This project aims to establish a computing platform for rodent behavior research using the Raspberry Pi computer. We are building devices for conducting operant conditioning, as well as some infrared sensor based assays. We also designed an environmental sensor set that records the temperature, humidity, air pressure, ambient light, noise level, etc.
 
-**Category:** PSYCHOLOGY · **Ecosystem:** unknown · **Vendored upstream:** https://github.com/bonsai-rx/bonsai · **Pinned commit:** `ba3abbcb07d7f64aff63aca613587a71858bd806` · **Vendor:** Anticloud FZ LLE
-
-> **Note:** this package vendors `https://github.com/bonsai-rx/bonsai` as the implementation for the `OPENBEHAVIOR` slot. The vendored repository name differs from the package name; the pin above is the exact commit vendored here.
+**Category:** PSYCHOLOGY · **Ecosystem:** unknown · **Vendored upstream:** https://github.com/chen42/openbehavior · **Pinned commit:** `f2d94cf2dc8312ae9e5fc149849a6ac7abaee278` · **Vendor:** Anticloud FZ LLE
 
 ## What This Project Is
 
-This is the main repository for the [Bonsai](https://bonsai-rx.org/) visual programming language. It contains source code for the compiler, IDE, and standard library.
+This project aims to establish a computing platform for rodent behavior research using the Raspberry Pi computer. We are building devices for conducting operant conditioning, as well as some infrared sensor based assays. We also designed an environmental sensor set that records the temperature, humidity, air pressure, ambient light, noise level, etc.
 
 This is the upstream project, vendored at the pinned commit above and packaged offline-first. The 12 improvements Anticloud adds live in `anticloud/` and are described under *Anticloud Overlay* below. Every fact in this file traces to a file in this directory.
 
 ## Installation
 
-1. Install the [Wix Toolset build tools](https://wixtoolset.org/releases/) version 3.11 or greater.
-2. From Visual Studio menu, select `Extensions` > `Manage Extensions` and install the WiX Toolset Visual Studio 2022 Extension.
+```
+# See the upstream README (linked above) for build steps.
+```
 
 ## Usage
 
@@ -61,7 +60,7 @@ The upstream licence is preserved in `LICENSE` and `THIRD_PARTY_LICENSES/`. The 
 SHA3-256 of `BENCH.json`:
 
 ```
-e4f6730ba96520f6836d795df606c2b40e2073c6731bf11c61949d06c63b71cf
+2da7a6126bcea8bbe2b157efb877d9acd92ff07e67056ce2712d05242243a912
 ```
 
 Recompute the hash above and compare — any drift means the package has been tampered with and the seal is invalid. This is a self-assessment; no external audit has been performed and a SOC 2 / NIST independent audit is committed post-funding.

@@ -2,13 +2,11 @@
  "schema": "anticloud.tier-bench/1",
  "project": "OPENBEHAVIOR",
  "source": {
-  "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\PSYCHOLOGY\\OPENBEHAVIOR\\UPSTREAM_CLONE",
   "git": {
-   "head": "ba3abbcb07d7f64aff63aca613587a71858bd806",
-   "url": "https://github.com/bonsai-rx/bonsai",
-   "branch": "master",
-   "committed_at": "",
-   "sha_verified_from": "GitHub API substitute swap 2026-10-12 | unified 2026-10-14 (API-exists + content/clone anchor)"
+   "url": "https://github.com/chen42/openbehavior",
+   "head": "f2d94cf2dc8312ae9e5fc149849a6ac7abaee278",
+   "sha_verified_from": "revendor 2026-10-15: GitHub API commit lookup",
+   "previous_substitute": "https://github.com/bonsai-rx/bonsai"
   }
  },
  "metrics": {
